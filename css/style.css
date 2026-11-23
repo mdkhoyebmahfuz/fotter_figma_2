@@ -1,0 +1,205 @@
+/* ---all common css start here---- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: "Epilogue", sans-serif;
+}
+.container{
+    width: 1690px;
+    margin: 0 auto;
+}
+/* ---all common css end here---- */
+/* -------footer part css start here-------- */
+#footerpart{
+    padding: 150px 0px 106px 0px;
+    background-color: #1D1D1D;
+}
+.footerhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerleft h2{
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 116px;
+    color: #fff;
+    width: 1050px;
+}
+.footerleft h2 span{
+    color: #D62B2C;
+}
+.footermenu{
+    margin-top: 140px;
+}
+.footermenu_wrapper{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 556px;
+}
+.fottermenu_left h3{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 160%;
+    color:#D62B2C ;
+}
+.fottermenu_left h3:hover{
+    color: #fff;
+    transition: all linear 0.3s;
+    cursor: pointer;
+
+}
+.fottermenu_left p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    width: 273px;
+    margin-top: 20px;
+}
+.fottermenu_right{
+    display: flex;
+    justify-content: end;
+    gap: 215px;
+    margin-right: 0;
+}
+.menu h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+   
+
+}
+.menu h4:hover{
+    color: #D62B2C;
+    transition: all linear 0.3s;
+}
+
+.menu ul li a{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2%;
+    color: #fff;
+    position: relative;
+}
+.menu ul li a::after{
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    background-color: #D62B2C;
+    width: 0%;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.menu ul li a:hover{
+    color: #D62B2C;
+    transition: all linear 0.3s;
+
+}
+.menu ul li a:hover::after{
+    width: 80%;
+    transition: all linear 0.3s;
+
+}
+.menu ul li{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+.address{
+    width: 215px;
+}
+.menu address ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2%;
+    color: #fff;
+    position: relative;
+}
+.menu address ul li::after{
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    background-color: #D62B2C;
+    width: 0%;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.menu address ul li:hover{
+    color: #D62B2C;
+    transition: all linear 0.3s;
+
+}
+.menu address ul li:hover::after{
+    width: 80%;
+    transition: all linear 0.3s;
+
+}
+/* .border{
+    margin-top: 150px;
+    height: 2px;
+    width: 100%;
+    color: #Fff;
+} */
+ .footerend{
+    margin-top: 150px;
+ }
+.footerend_content{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+}
+.footerend_content h4{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+/* -------footer part css end here-------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
